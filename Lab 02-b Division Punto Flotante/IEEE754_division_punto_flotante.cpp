@@ -86,7 +86,7 @@ float dividirPuntoFlotante(float dividendo, float divisor)
         return (signoR == 0) ? INFINITY : -INFINITY;
     }
 
-    //  calcular exponente preliminar
+    //  calcular exponente 
     int expR = expA - expB + 127;
 
     //  division de mantisas
